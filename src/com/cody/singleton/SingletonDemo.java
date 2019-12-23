@@ -1,11 +1,10 @@
-package com.cody;
+package com.cody.singleton;
 
 public class SingletonDemo {
 
     /**
      * 只能实例化一个类对象
      * 将构造函数设置为私有的
-     *
      */
     private static SingletonDemo singletonDemo = new SingletonDemo();
 
