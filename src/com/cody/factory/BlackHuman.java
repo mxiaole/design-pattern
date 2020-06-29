@@ -3,7 +3,7 @@ package com.cody.factory;
 public class BlackHuman implements Human {
     @Override
     public void getColor() {
-        System.out.printf("黑人的肤色是黑色的");
+        System.out.println("黑人的肤色是黑色的");
     }
 
     @Override
